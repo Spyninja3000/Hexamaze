@@ -1,0 +1,28 @@
+This is intended to be a rather simple text-based Undertale-style game
+
+- Maze is based off of dict converted to crude grid system
+- Based off of a five class system
+    - Player talks about the player's movement
+    - Maze creates the maze
+    - Position talks about and relates the two previous classes' positions
+    - Guide gives players hints and tips based on distance
+    - Battle sets up and executes the final boss battle
+
+    - Four moves: left, right, forward, backward
+    - Player inputs moves, position changes and is compared, loops like so
+    - Position must be regulated and maintained
+
+Gameplay is divided into 2 phases:
+
+Phase 1:
+- Player traverses maze in search of exit
+- Exit is chosen based on a random square on the grid
+- Player moves on step at a time, guided by Mazer
+
+Phase 2:
+- Player reaches exit
+- Must fight boss
+- Has sword, shield, and potion
+- Interesting gameplay
+
+After phase 2 is completed, the player either wins or loses and restarts
